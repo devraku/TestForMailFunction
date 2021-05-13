@@ -11,6 +11,7 @@
 	  $headers = "Kunde: ". $email;
 	  $txt = " möchte was von Dimension" "\n\n". $demo_message
 	  mail($email, $text, $demo_message, $headers);
+	    header("Location: Index.html?mailsend")
   } 
   
   
